@@ -1,8 +1,0 @@
-service: auction
-provider:
-  name: aws
-  runtime: nodejs18.x
-
-functions:
-  hello:
-    handler: src/handlers/hello.handler
